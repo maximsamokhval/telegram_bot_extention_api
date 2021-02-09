@@ -1,4 +1,4 @@
-# telegram_bot_extention_api
+# HTTP extention API
 Расширение для работы с внешней базой (используется для telegram ботов)
 
 ## Описание
