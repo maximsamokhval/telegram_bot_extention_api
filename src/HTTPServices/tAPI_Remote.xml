@@ -17,15 +17,15 @@
 		<ChildObjects>
 			<URLTemplate uuid="67b4baa4-83ad-4f02-b409-daef837adcbd">
 				<Properties>
-					<Name>ПолучитьИнформацию</Name>
+					<Name>ПолучитьДанные</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Получить информацию</v8:content>
+							<v8:content>Получить данные</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/v1/download/{ID}</Template>
+					<Template>/v1/list/{ID}</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="9dd0d97c-dfc5-4435-973f-fbb8a1e75a43">
@@ -40,6 +40,35 @@
 							<Comment/>
 							<HTTPMethod>GET</HTTPMethod>
 							<Handler>ПолучитьИнформациюGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="50662c35-11fe-4c6c-a766-410459358df1">
+				<Properties>
+					<Name>Description</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Description</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/v1/{ID}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="016c5b82-d085-4889-86e1-9463200a17e6">
+						<Properties>
+							<Name>GetReferenceTypes</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Reference types</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ПолучитьИнформациюGetReferenceTypes</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>

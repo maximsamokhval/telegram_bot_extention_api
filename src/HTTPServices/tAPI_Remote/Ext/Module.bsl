@@ -4,3 +4,9 @@
 	
 КонецФункции
 
+Функция ПолучитьИнформациюGetReferenceTypes(Запрос)
+	
+	Возврат HTTP.GetReferenceTypes();
+	
+КонецФункции
+

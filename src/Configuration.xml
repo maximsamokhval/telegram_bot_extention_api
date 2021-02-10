@@ -47,7 +47,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>maxim.samokhval@gmail.com</Vendor>
-			<Version>0.0.5</Version>
+			<Version>0.0.6</Version>
 			<DefaultLanguage>Language.Украинский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -75,9 +75,11 @@
 			<Language>Украинский</Language>
 			<CommonModule>CloudEvents</CommonModule>
 			<CommonModule>HTTP</CommonModule>
+			<CommonModule>_Описание</CommonModule>
 			<HTTPService>tAPI_Remote</HTTPService>
 			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Document>РасходныйКассовыйОрдер</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
