@@ -12,4 +12,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: ${{ github.ACTOR }} выполнил ${{ github.event_name }}, ссылка ${{ github.ref }}
+        message: ${{ github.ACTOR }} выполнил ${{ github.event_name }}, ссылка https://github.com/maximsamokhval/telegram_bot_extention_api
