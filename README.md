@@ -1,4 +1,5 @@
 # HTTP extention API
+![Build](https://github.com/maximsamokhval/telegram_bot_extention_api/workflows/Build/badge.svg)
 Расширение для работы с внешней базой (используется для telegram ботов)
 
 ## Описание
