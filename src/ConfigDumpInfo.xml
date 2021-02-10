@@ -8,18 +8,17 @@
 		<Metadata name="CommonModule.CloudEvents" id="9603803b-819b-46c2-a488-4f46bed7d968" configVersion="de78f9ad6d5a88c74ce4a53575d6eb281efb7520"/>
 		<Metadata name="CommonModule.CloudEvents.Module" id="9603803b-819b-46c2-a488-4f46bed7d968.0" configVersion="9ee9b643a19d66d9c49b1c55f0ff941f43c5296d"/>
 		<Metadata name="CommonModule.HTTP" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930" configVersion="59e81409aef554b18808f35f9615504d6cbfb0f2"/>
-		<Metadata name="CommonModule.HTTP.Module" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930.0" configVersion="05ca64ab1ec2909f9bddabdf748ba2879e083e01"/>
+		<Metadata name="CommonModule.HTTP.Module" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930.0" configVersion="b63e640e9aefc8b791b467f5ee0d833995af2765"/>
 		<Metadata name="CommonModule._Описание" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60" configVersion="e1c234cabfbc80ebc98867e84b91cd168a859457"/>
-		<Metadata name="CommonModule._Описание.Module" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60.0" configVersion="1babadb92625ca0dbe4099a9b7dcf50346673b43"/>
-		<Metadata name="Configuration.Telegram_bot_API" id="22bfb2e1-bcdc-4c4f-98ee-8d7c77917aae" configVersion="096c9facc5e1949ff7a5ff692529a24ee6bfa100"/>
+		<Metadata name="CommonModule._Описание.Module" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60.0" configVersion="411119605268ce8e5459b603f7aa326b16963f10"/>
+		<Metadata name="Configuration.Telegram_bot_API" id="22bfb2e1-bcdc-4c4f-98ee-8d7c77917aae" configVersion="ee42bce9c1d1161cb1170e4c786f6c0b87ca05f5"/>
 		<Metadata name="Document.РасходныйКассовыйОрдер" id="b3244c4c-b4f1-4aca-b2b9-7c88023c0162" configVersion="4ac42972029fffe3b2acbb0c1149c29c33e2d5f9"/>
-		<Metadata name="HTTPService.tAPI_Remote" id="306ba9c3-467f-441b-8a3f-5d15ab8ae766" configVersion="d0059c0bf573d0f51a4b1a7672a2893e16ef7a61">
-			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.Description.Method.GetReferenceTypes" id="016c5b82-d085-4889-86e1-9463200a17e6"/>
-			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.Description" id="50662c35-11fe-4c6c-a766-410459358df1"/>
-			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.ПолучитьДанные" id="67b4baa4-83ad-4f02-b409-daef837adcbd"/>
-			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.ПолучитьДанные.Method.GET" id="9dd0d97c-dfc5-4435-973f-fbb8a1e75a43"/>
+		<Metadata name="HTTPService.tAPI_Remote" id="306ba9c3-467f-441b-8a3f-5d15ab8ae766" configVersion="bc391bb0df407cb975dfa2f05c77d9be185ff615">
+			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.GetReference" id="4bfa1f97-b8fd-4e9f-ab89-065c7f1b0edd"/>
+			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.BaseInfo" id="706e6b08-2a1e-4a3d-8ed1-494c608f5c34"/>
+			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.BaseInfo.Method.GetMetadata" id="fb221e9c-cb27-471f-befd-fdcc418bf898"/>
 		</Metadata>
-		<Metadata name="HTTPService.tAPI_Remote.Module" id="306ba9c3-467f-441b-8a3f-5d15ab8ae766.0" configVersion="2e5b4ca9a72e61fa7b9f6d40289614a081251458"/>
+		<Metadata name="HTTPService.tAPI_Remote.Module" id="306ba9c3-467f-441b-8a3f-5d15ab8ae766.0" configVersion="9e6c7f31784d6dde83cafad24b9af413dda4d92d"/>
 		<Metadata name="Language.Украинский" id="7c4fe983-59cc-4a75-be3e-a596c367b530" configVersion="8ee9019092275bce9a5fa12388b1df8b3c943bbe"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

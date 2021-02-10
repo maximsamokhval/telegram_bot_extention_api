@@ -12,66 +12,51 @@
 			<Comment/>
 			<RootURL>tapi</RootURL>
 			<ReuseSessions>AutoUse</ReuseSessions>
-			<SessionMaxAge>20</SessionMaxAge>
+			<SessionMaxAge>10</SessionMaxAge>
 		</Properties>
 		<ChildObjects>
-			<URLTemplate uuid="67b4baa4-83ad-4f02-b409-daef837adcbd">
+			<URLTemplate uuid="706e6b08-2a1e-4a3d-8ed1-494c608f5c34">
 				<Properties>
-					<Name>ПолучитьДанные</Name>
+					<Name>BaseInfo</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Получить данные</v8:content>
+							<v8:content>BaseInfo</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment/>
-					<Template>/v1/list/{ID}</Template>
+					<Comment>Основная информация о HTTP tapi</Comment>
+					<Template>/v1/BaseInfo</Template>
 				</Properties>
 				<ChildObjects>
-					<Method uuid="9dd0d97c-dfc5-4435-973f-fbb8a1e75a43">
+					<Method uuid="fb221e9c-cb27-471f-befd-fdcc418bf898">
 						<Properties>
-							<Name>GET</Name>
+							<Name>GetMetadata</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>uk</v8:lang>
-									<v8:content>GET</v8:content>
+									<v8:content>Get metadata</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>GET</HTTPMethod>
-							<Handler>ПолучитьИнформациюGET</Handler>
+							<Handler>MetadataGetMetadata</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
-			<URLTemplate uuid="50662c35-11fe-4c6c-a766-410459358df1">
+			<URLTemplate uuid="4bfa1f97-b8fd-4e9f-ab89-065c7f1b0edd">
 				<Properties>
-					<Name>Description</Name>
+					<Name>GetReference</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Description</v8:content>
+							<v8:content>Get reference</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/v1/{ID}</Template>
+					<Template>/v1/reference/{name}/list</Template>
 				</Properties>
-				<ChildObjects>
-					<Method uuid="016c5b82-d085-4889-86e1-9463200a17e6">
-						<Properties>
-							<Name>GetReferenceTypes</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>uk</v8:lang>
-									<v8:content>Reference types</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<HTTPMethod>GET</HTTPMethod>
-							<Handler>ПолучитьИнформациюGetReferenceTypes</Handler>
-						</Properties>
-					</Method>
-				</ChildObjects>
+				<ChildObjects/>
 			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>

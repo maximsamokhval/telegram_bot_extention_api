@@ -10,3 +10,7 @@
 	
 КонецФункции
 
+Функция MetadataGetMetadata(Запрос)
+	Возврат HTTP.GetMetadata();
+КонецФункции
+
