@@ -1,5 +1,5 @@
 # HTTP extention API
-![Build](https://github.com/maximsamokhval/telegram_bot_extention_api/workflows/Build/badge.svg)
+[![Quality gate](https://sonarqube.samokhval.com/api/project_badges/quality_gate?project=http_api_extention)](https://sonarqube.samokhval.com/dashboard?id=http_api_extention)
 Расширение для работы с внешней базой (используется для telegram ботов)
 
 ## Описание
