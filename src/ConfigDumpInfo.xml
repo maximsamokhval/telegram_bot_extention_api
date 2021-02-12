@@ -5,13 +5,13 @@
 		<Metadata name="Catalog.Контрагенты.ManagerModule" id="01c43665-d701-4b4f-bf18-f1b71bd5d280.3" configVersion="d9a6151e9432a5ab6bdf3c45828bb1cd58965304"/>
 		<Metadata name="Catalog.СтатьиДвиженияДенежныхСредств" id="b78a20bb-c946-4f9c-b3e8-88447a5c388a" configVersion="06e1a84222bb3e8a4ae0d14e210bb23d3a2e01b1"/>
 		<Metadata name="Catalog.СтатьиДвиженияДенежныхСредств.ManagerModule" id="b78a20bb-c946-4f9c-b3e8-88447a5c388a.3" configVersion="2e5718519d97b596716d1705bbf68cbdc7ad9716"/>
-		<Metadata name="CommonModule.CloudEvents" id="9603803b-819b-46c2-a488-4f46bed7d968" configVersion="de78f9ad6d5a88c74ce4a53575d6eb281efb7520"/>
+		<Metadata name="CommonModule.CloudEvents" id="9603803b-819b-46c2-a488-4f46bed7d968" configVersion="2a74d4eb78b257dd6e32b6d80466219304ea1135"/>
 		<Metadata name="CommonModule.CloudEvents.Module" id="9603803b-819b-46c2-a488-4f46bed7d968.0" configVersion="9ee9b643a19d66d9c49b1c55f0ff941f43c5296d"/>
-		<Metadata name="CommonModule.HTTP" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930" configVersion="59e81409aef554b18808f35f9615504d6cbfb0f2"/>
+		<Metadata name="CommonModule.HTTP" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930" configVersion="575a10ccb2e67478d4baae2cf67348fcc14ea63c"/>
 		<Metadata name="CommonModule.HTTP.Module" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930.0" configVersion="b63e640e9aefc8b791b467f5ee0d833995af2765"/>
-		<Metadata name="CommonModule._Описание" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60" configVersion="e1c234cabfbc80ebc98867e84b91cd168a859457"/>
+		<Metadata name="CommonModule._Описание" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60" configVersion="8826edfcf7f9a2b4c69d1374f0fea68f83ca0de9"/>
 		<Metadata name="CommonModule._Описание.Module" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60.0" configVersion="411119605268ce8e5459b603f7aa326b16963f10"/>
-		<Metadata name="Configuration.Telegram_bot_API" id="22bfb2e1-bcdc-4c4f-98ee-8d7c77917aae" configVersion="e0ca72c1a9fc73ec7691394d3a060e3fd8f5ae1b"/>
+		<Metadata name="Configuration.Telegram_bot_API" id="22bfb2e1-bcdc-4c4f-98ee-8d7c77917aae" configVersion="695a5a9def2ea0e87f466704e62daf3ad5f422db"/>
 		<Metadata name="Document.РасходныйКассовыйОрдер" id="b3244c4c-b4f1-4aca-b2b9-7c88023c0162" configVersion="4ac42972029fffe3b2acbb0c1149c29c33e2d5f9"/>
 		<Metadata name="HTTPService.tAPI_Remote" id="306ba9c3-467f-441b-8a3f-5d15ab8ae766" configVersion="bc391bb0df407cb975dfa2f05c77d9be185ff615">
 			<Metadata name="HTTPService.tAPI_Remote.URLTemplate.GetReference" id="4bfa1f97-b8fd-4e9f-ab89-065c7f1b0edd"/>
