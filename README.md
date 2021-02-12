@@ -1,5 +1,5 @@
 # HTTP extention API
-[![Quality gate](https://sonarqube.samokhval.com/api/project_badges/quality_gate?project=http_api_extention)](https://sonarqube.samokhval.com/dashboard?id=http_api_extention)
+[![Технический долг](https://sonarqube.samokhval.com/api/project_badges/measure?project=http_api_extention&metric=sqale_index)](https://sonarqube.samokhval.com/dashboard?id=http_api_extention)  
 Расширение для работы с внешней базой (используется для telegram ботов)
 
 ## Описание
