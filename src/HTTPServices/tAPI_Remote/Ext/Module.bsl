@@ -1,16 +1,16 @@
 ﻿Функция ПолучитьИнформациюGET(Запрос)
 	
-	Возврат HTTP.ПолучитьИнформациюGET(Запрос);	
+	Возврат HTTPСервер.ПолучитьИнформациюGET(Запрос);	
 	
 КонецФункции
 
 Функция ПолучитьИнформациюGetReferenceTypes(Запрос)
 	
-	Возврат HTTP.GetReferenceTypes();
+	Возврат HTTPСервер.GetReferenceTypes();
 	
 КонецФункции
 
 Функция MetadataGetMetadata(Запрос)
-	Возврат HTTP.GetMetadata();
+	Возврат HTTPСервер.GetMetadata();
 КонецФункции
 

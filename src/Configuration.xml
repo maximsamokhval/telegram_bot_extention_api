@@ -73,9 +73,9 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Украинский</Language>
-			<CommonModule>CloudEvents</CommonModule>
-			<CommonModule>HTTP</CommonModule>
-			<CommonModule>_Описание</CommonModule>
+			<CommonModule>CloudEventsСервер</CommonModule>
+			<CommonModule>HTTPСервер</CommonModule>
+			<CommonModule>_ОписаниеСервер</CommonModule>
 			<HTTPService>tAPI_Remote</HTTPService>
 			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
 			<Catalog>Контрагенты</Catalog>
