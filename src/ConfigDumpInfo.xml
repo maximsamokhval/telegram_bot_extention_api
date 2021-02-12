@@ -9,7 +9,7 @@
 		<Metadata name="CommonModule.CloudEventsВызовСервера.Module" id="9603803b-819b-46c2-a488-4f46bed7d968.0" configVersion="9ee9b643a19d66d9c49b1c55f0ff941f43c5296d"/>
 		<Metadata name="CommonModule.HTTPВызовСервера" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930" configVersion="24f1a5c129b634bf2f66d732c74eaf99d9cd00d6"/>
 		<Metadata name="CommonModule.HTTPВызовСервера.Module" id="3ab1340c-5eaa-42e9-bce6-96a9206e0930.0" configVersion="036b0f94262bbbff1d7053d6f5d6105746c74480"/>
-		<Metadata name="CommonModule._ОписаниеВызовСервера" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60" configVersion="7350f5cc0c21e25782e0a7b9d4d7ce99f5de7e4b"/>
+		<Metadata name="CommonModule._ОписаниеВызовСервера" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60" configVersion="fd0bd2b1499eea60c0b3af874e2ec757b1097f26"/>
 		<Metadata name="CommonModule._ОписаниеВызовСервера.Module" id="bb02c8b0-89e6-491c-b1dd-641f831ffc60.0" configVersion="411119605268ce8e5459b603f7aa326b16963f10"/>
 		<Metadata name="Configuration.Telegram_bot_API" id="22bfb2e1-bcdc-4c4f-98ee-8d7c77917aae" configVersion="695a5a9def2ea0e87f466704e62daf3ad5f422db"/>
 		<Metadata name="Document.РасходныйКассовыйОрдер" id="b3244c4c-b4f1-4aca-b2b9-7c88023c0162" configVersion="4ac42972029fffe3b2acbb0c1149c29c33e2d5f9"/>
