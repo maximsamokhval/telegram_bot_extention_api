@@ -1,15 +1,13 @@
-name: telegram message
-on: [push]
+on: push
+name: Main Workflow
 jobs:
-
-  build:
-    name: Build
+  sonarQubeTrigger:
+    name: SonarQube Trigger
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: send custom message with args
-      uses: appleboy/telegram-action@master
+    - name: SonarQube Scan
+      uses: kitabisa/sonarqube-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: ${{ github.ACTOR }} выполнил ${{ github.event_name }}, ссылка https://github.com/maximsamokhval/telegram_bot_extention_api
+        host: ${{ secrets.SONARQUBE_HOST }}
+        login: ${{ secrets.SONARQUBE_TOKEN }}
