@@ -12,7 +12,6 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
       with:
         projectBaseDir: "src"
-        projectBaseDir: "src"
         args: >
           -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }} 
-          -Dsonar.projectKey=${{ secrets.SONARQUBE_TOKEN }} 
+          -Dsonar.projectKey=${{ secrets.PROJECTKEY }} 
