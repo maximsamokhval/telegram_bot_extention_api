@@ -12,6 +12,4 @@ jobs:
         host: ${{ secrets.SONARQUBE_HOST }}
         login: ${{ secrets.SONARQUBE_TOKEN }}
         projectBaseDir: "src"
-        projectKey: ${{ secrets.projectKey }}
-        projectVersion: "v0.0.1"
-        projectName: "1C HTTP API (Extention)"
+        projectKey: ${{ secrets.PROJECTKEY }}
