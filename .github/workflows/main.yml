@@ -11,3 +11,6 @@ jobs:
       with:
         host: ${{ secrets.SONARQUBE_HOST }}
         login: ${{ secrets.SONARQUBE_TOKEN }}
+        projectBaseDir: "/src"
+        projectKey: "http_api_extention"
+        projectVersion: "v0.0.1"
