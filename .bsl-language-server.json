@@ -22,8 +22,10 @@
 			},
 			"Typo": {
 				"minWordLength": 3,
-				"userWordsToIgnore": "слм,Увага"
+				"userWordsToIgnore": "Увага"
 			}
 		}
-	}
+	},
+	"traceLog": null,
+	"configurationRoot": "src"
 }
