@@ -14,7 +14,4 @@ jobs:
         projectBaseDir: "src"
         args: >
           -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }} 
-          -Dsonar.projectKey=${{ secrets.PROJECTKEY }} 
-          -Dsonar.pullrequest.key=${{ github.event.pull_request.number }}
-          -Dsonar.pullrequest.branch=${{ github.event.pull_request.head.ref }}
-          -Dsonar.pullrequest.base=${{ github.event.pull_request.base.ref }}
+          -Dsonar.projectKey=${{ secrets.PROJECTKEY }}
